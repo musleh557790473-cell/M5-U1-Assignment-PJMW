@@ -4,12 +4,12 @@ A comprehensive time series analysis of PJM West Region hourly energy consumptio
 developed as part of Module 5 (Unit 1) of the Master's in AI for Construction &
 Engineering (MAICEN1125) at Zigarat Institute.
 
-## 📊 Dataset
+## Dataset
 - **Source:** [Kaggle — PJM Hourly Energy Consumption](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption)
 - **File:** `PJMW_hourly.csv`
 - **Coverage:** 2002–2018 | Hourly resolution | ~140,000+ records
 
-## 🔬 Exercises Covered
+## Exercises Covered
 
 | # | Topic | Method |
 |---|-------|--------|
@@ -20,14 +20,14 @@ Engineering (MAICEN1125) at Zigarat Institute.
 | 5 | Prophet Forecasting | Facebook Prophet with `ParameterGrid` hyperparameter tuning |
 | ★ | Bonus: SARIMA | `SARIMAX` + `itertools` grid search, best: SARIMA(2,0,3)(1,1,1,12) |
 
-## 📈 Key Results
+## Key Results
 - **Prophet** — MAE: ~369 MW | MAPE: ~6.6%
 - **SARIMA** — Best RMSE: 281.55 MW
 
-## 🛠️ Libraries
+## Libraries
 `pandas` · `matplotlib` · `statsmodels` · `prophet` · `scikit-learn` · `tqdm`
 
-## 🚀 Usage
+## Usage
 Open in [Google Colab](https://colab.research.google.com/) and run all cells sequentially.
 Upload `PJMW_hourly.csv` when prompted.
 
@@ -49,3 +49,4 @@ Upload `PJMW_hourly.csv` when prompted.
 | `PJMW_hourly.csv` | `00Data/` | Hourly data used for analysis |
 
 ## Group 6
+
